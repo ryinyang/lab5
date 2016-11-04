@@ -1,0 +1,99 @@
+#feed {
+    margin-top: 50px;
+ }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#home-btn {
+    float: left;
+    margin-left: 15px;
+
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 2em;
+}
+
+.navbar-toggle {
+    border: 0;
+}
+
+#main-navbar {
+    background-color: #94c2db;
+    color: white;
+}
+
+#dropdown-list > li > a {
+    color: white !important;
+}
+
+.upfloat {
+    /*margin-top: 15px;*/
+    background-color: #94c2db;
+    color: white;
+    text-align: center;
+}
+
+#upfloat-meter {
+    font-size: .75em;
+    margin-top: -15px;
+}
+
+div > .panel > .panel-heading {
+    background: #94c2db !important;
+    color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+div > .panel > .panel-body {
+    border: 0;
+}
+
+.panel-default {
+    box-shadow: 3px 3px 5px #eee !important;
+}
+
+.vertical-margin-15 {
+    margin-top: 15%;
+}
+
+.logo {
+    max-width: 14px;
+}
+
+.cloud {
+    display: inline-block;
+    font-size: 5em;
+    color: #94c2db;
+}
+
+.cloud-label {
+    margin-top: -40px;
+    font-size: 11pt;
+    color: black;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+.progress {
+    max-width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.progress-bar {
+    background-color: #94c2db;
+}
+
+#menu-btn:active {
+    color: inherit;
+    text-decoration: none;
+}

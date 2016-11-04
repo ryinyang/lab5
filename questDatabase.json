@@ -1,0 +1,38 @@
+{
+	"quests":
+		[
+			{
+				"title": "Draw yourself"
+			},
+			{
+				"title": "Draw your favorite animal"
+			},
+			{
+				"title": "Draw the turning point in your life"
+			},
+			{
+				"title": "Draw your most recent accomplishment"
+			},
+			{
+				"title": "Draw your inspiration"
+			},
+			{
+				"title": "Draw something you miss"
+			},
+			{
+				"title": "Draw something you want"
+			},
+			{
+				"title": "Draw something you need"
+			},
+			{
+				"title": "Draw a couple"
+			},
+			{
+				"title": "Draw a place you want to go"
+			},
+			{
+				"title": "Draw what’s on the table"
+			}
+		]
+}

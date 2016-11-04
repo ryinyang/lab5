@@ -1,0 +1,17 @@
+#welcome-msg {
+	margin-top: 75px;
+}
+
+#login-box {
+	margin-top: 40px;
+}
+
+#password-input {
+	margin-top: 10px;
+}
+
+#login-btn {
+	margin-top: 20px;
+	background-color: #94c2db;
+	color: white;
+}

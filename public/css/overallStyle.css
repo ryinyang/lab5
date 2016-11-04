@@ -1,0 +1,26 @@
+:root {
+	--main-color: #94c2db;
+	--text-color: white;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#main-navbar {
+	background-color: var(--main-color);
+	color: var(--text-color);
+}
+
+.navbar-brand {
+	color: var(--text-color) !important;
+}
+
+#dropdown-list > li > a {
+	color: var(--text-color);
+}
+
+#body {
+	margin-top: 75px;
+}

@@ -1,0 +1,20 @@
+:root {
+	--main-color: #94c2db;
+	--text-color: white;
+}
+
+#profile-picture {
+	border-radius: 50%;
+	max-width: 30%;
+}
+
+#progress-container {
+	max-width: 70%;
+	text-align: center;
+	margin-left: 15%;
+}
+
+#progress-bar {
+	background-color: #94c2db;
+	width: 30%;
+}

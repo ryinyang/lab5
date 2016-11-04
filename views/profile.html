@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Your Profile</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/overallStyle.css" rel="stylesheet">	
+	<link href="css/profile.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- AWRNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+  		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container" id="main-navbar">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" id="menu-btn">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<a class="navbar-brand" href="/home">Outlts</a>
+        	</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav" id="dropdown-list"> 
+					<li><a href="/profile">Profile</a></li>
+					<!-- <li><a href="/quests">Quests</a></li> -->
+					<li><a href="/feed">Feed</a></li>
+					<!-- <li><a href="/settings">Settings</a></li> -->
+					<li><a href="/landing">Sign Out</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+	<!-- /navbar -->
+
+	<div class="container text-center" id="body">
+		<div class="row ">
+			<h2>KillJoy67</h2>
+		</div>
+		<div class="row">
+			<img src="http://theawesomedaily.com/wp-content/uploads/2014/11/mr-bean-historic-portraits-15.jpg" id="profile-picture">
+		</div>
+		<div class="row">
+			<center><p>Level 2</p></center>
+		</div>
+		<div class="row">
+			<div class="progress" id="progress-container">
+				<div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" id="progress-bar">
+					<span class="sr-only">60% Complete</span>
+				</div>
+			</div>
+		</div>
+ 		<!-- <div class="row">
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Quotes (12/25)</p></div>
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Text (4/10)</p></div>
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Audio (49/50)</p></div>
+		</div>
+		<div class="row">
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Videos (10/10)</p></div>
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Gifs (0/5)</p></div>
+			<div id="cloud"><span class="glyphicon glyphicon-cloud"></span><p class="cloud-label">Photos (43/100)</p></div>
+		</div> -->
+	</div>
+
+	<div class="container">
+		<div class="panel-group">
+			<div class="panel panel-default"><div class="panel-heading">Achievements</div></div>
+			<div class="panel panel-default"><div class="panel-body">
+				<div class="panel panel-default"><div class="panel-body">Complete 3 quests today</div></div>
+				<div class="panel panel-default"><div class="panel-body">Complete at least 1 quest a day for 3 days</div></div>
+				<div class="panel panel-default"><div class="panel-body">Complete at least 1 quest a day for 7 days</div></div>
+				<div class="panel panel-default"><div class="panel-body">Complete 3 quests a day for 7 days</div></div>
+			</div></div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

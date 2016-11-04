@@ -1,0 +1,18 @@
+#appname {
+	color: white;
+	margin-top: 10%;
+}
+
+#login-btn {
+	background-color: white;
+	color: #94c2db;
+}
+
+#new-user-btn {
+	background-color: white;
+	color: #94c2db;
+}
+
+#btn-container {
+	margin-top: 40%;
+}
